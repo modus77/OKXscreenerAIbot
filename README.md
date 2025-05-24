@@ -24,14 +24,14 @@ This project was created as part of the [OKX Solana Accelerate Hackathon](https:
   - Real-time price comparison between CEX and DEX
   - Automated arbitrage opportunity detection
 
-- **Blockchain Integration**
-  - Helius API integration for Solana token metadata
+- **Deep Blockchain Integration** (Stage 2)
+  - Helius API integration for Solana token metadata 
   - Token holder analytics
   - Real-time blockchain monitoring
 
 - **User Interface**
   - Interactive Telegram bot with rich menu system
-  - Real-time price alerts and notifications
+  - Real-time price alerts and notifications (soon)
   - Customizable spread thresholds
   - Token tracking preferences
   - Chart generation and visualization
