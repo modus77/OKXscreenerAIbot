@@ -65,7 +65,6 @@ Before running the bot, make sure you have:
    - Telegram Bot Token (from [@BotFather](https://t.me/BotFather))
    - OpenAI API Key
    - OKX API Credentials (API Key, Secret, Passphrase)
-   - Helius API Key (for Solana data)
 
 ## 🛠 Installation
 
@@ -123,9 +122,10 @@ Before running the bot, make sure you have:
    - `/start` - Start the bot and see available options
    - `/help` - Show help message
    - `/settings` - Configure your preferences
-   - `/track` - Add tokens to track
-   - `/charts` - Get price charts
-   - `/spreads` - View current spreads
++ Buttons
+  - `Refresh` - showing market opportunities
+  - `Top Arbitrage` - TON-3 arbitrage opportunities
+  - `AI Insight` - Artificial Intilegens Insights
 
 ## 🔧 Configuration
 
@@ -136,7 +136,6 @@ The bot can be configured through environment variables in the `.env` file:
 - `OKX_API_KEY`: OKX API key
 - `OKX_API_SECRET`: OKX API secret
 - `OKX_PASSPHRASE`: OKX API passphrase
-- `HELIUS_API_KEY`: Helius API key for Solana data
 - `DATABASE_URL`: SQLite database path
 - `LOG_LEVEL`: Logging level (default: INFO)
 - `PORT`: Server port (default: 8000)
