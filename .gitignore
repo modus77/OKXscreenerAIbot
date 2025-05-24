@@ -1,0 +1,86 @@
+# Environment variables
+.env
+set-secrets.ps1
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Database
+*.db
+*.sqlite3
+backend/db/*.db
+
+# Logs
+logs/
+*.log
+
+# Docker
+.dockerignore
+
+# System
+Thumbs.db
+.DS_Store
+
+# Misc
+*.bak
+*.tmp
+*.old
+*.orig
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.history/
+
+# Node
+node_modules/
+
+# Charts
+telegram/charts/*
+!telegram/charts/.gitkeep
+
+# Build tools
+PortableBuildTools.exe
+vs_buildtools.exe
+chromedriver/
+chrome/
+
+# Data
+data/
+/data/

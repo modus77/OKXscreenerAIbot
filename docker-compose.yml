@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    command: python -m uvicorn backend.main:app --host 0.0.0.0 --port 8000
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+
+  bot:
+    build: .
+    command: python telegram/bot.py
+    env_file:
+      - .env
+    depends_on:
+      - backend
+    volumes:
+      - .:/app
+
+volumes:
+  redis_data:
